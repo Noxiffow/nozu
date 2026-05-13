@@ -5,16 +5,16 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    q: "¿Con qué tipo de proyectos trabajas?",
-    a: "Chatbots IA, automatizaciones con n8n y APIs REST. Principalmente para negocios que necesitan sistemas funcionales — tiendas online, atención al cliente automatizada, integraciones entre herramientas.",
+    q: "¿Qué tipo de proyectos aceptas?",
+    a: "Backend en general — APIs, integraciones entre sistemas, automatizaciones. Si tienes un problema técnico concreto y necesitas a alguien que lo construya, probablemente puedo ayudarte. Si no estoy seguro, te lo digo directamente.",
   },
   {
-    q: "¿Quién paga las APIs de IA?",
-    a: "Tú. Yo construyo la integración; las claves de API (Groq, OpenAI, lo que sea) son tuyas. Así tienes el control total del coste y de los datos. Te explico cómo funciona todo antes de empezar.",
+    q: "¿Necesito tener claro qué quiero antes de contactarte?",
+    a: "No hace falta que tengas todo definido. Con que me cuentes el problema es suficiente para que yo te diga si puedo ayudarte y cómo. Lo que sí ayuda es tener claro qué quieres conseguir — no necesariamente cómo.",
   },
   {
     q: "¿Cuánto tarda un proyecto?",
-    a: "Depende de la complejidad. Un chatbot básico conectado a un catálogo puede estar en una semana. Algo con panel admin, stock y automatizaciones tarda más. Te doy un tiempo realista cuando me cuentes qué necesitas.",
+    a: "Depende de la complejidad. Algo sencillo puede estar en días; un sistema con varias integraciones y lógica de negocio tarda más. Te doy un tiempo realista cuando me cuentes qué necesitas — no tengo tarifas ni plazos fijos.",
   },
   {
     q: "¿Haces mantenimiento después de entregar?",

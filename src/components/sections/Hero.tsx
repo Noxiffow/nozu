@@ -3,23 +3,23 @@
 import { motion } from "framer-motion";
 
 const chatMessages = [
-  { role: "user", text: "Necesito un chatbot para mi tienda online" },
+  { role: "client", text: "Necesito automatizar el proceso de pedidos de mi tienda" },
   {
-    role: "bot",
-    text: "¿Qué necesitas que haga? ¿Atender pedidos, responder dudas, gestionar stock?",
+    role: "jonathan",
+    text: "¿Tienes ya algo montado o empezamos desde cero?",
   },
-  { role: "user", text: "Todo eso, y que funcione en WhatsApp" },
+  { role: "client", text: "Tengo una web en Shopify, pero todo lo demás es manual" },
   {
-    role: "bot",
-    text: "Perfecto. Lo integro con tu catálogo y lo conecto a n8n para automatizar los emails de pedido.",
+    role: "jonathan",
+    text: "Entendido. Puedo conectarlo con tu stock y automatizar notificaciones y emails. Cuéntame más sobre el volumen.",
   },
 ];
 
 const techStack = [
   "FastAPI", "Python", "PostgreSQL", "Docker", "Railway",
-  "n8n", "Groq AI", "JavaScript", "TypeScript", "Linux",
+  "n8n", "JavaScript", "TypeScript", "Linux", "Git",
   "FastAPI", "Python", "PostgreSQL", "Docker", "Railway",
-  "n8n", "Groq AI", "JavaScript", "TypeScript", "Linux",
+  "n8n", "JavaScript", "TypeScript", "Linux", "Git",
 ];
 
 export function Hero() {
@@ -89,8 +89,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[#a09890] text-lg leading-relaxed mb-8"
           >
-            Construyo chatbots IA, automatizaciones con n8n y APIs REST para
-            negocios que necesitan sistemas que funcionen — no demos.
+            Construyo APIs, automatizaciones e integraciones para negocios
+            que necesitan sistemas que funcionen — no demos.
           </motion.p>
 
           <motion.div
@@ -118,7 +118,7 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Right — chat mockup */}
+        {/* Right — chat mockup: Jonathan talking with a client */}
         <motion.div
           initial={{ opacity: 0, x: 24 }}
           animate={{ opacity: 1, x: 0 }}
@@ -131,7 +131,7 @@ export function Hero() {
               boxShadow: "0 24px 64px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.05)",
             }}
           >
-            {/* Chat header */}
+            {/* Chat header — client name */}
             <div className="px-4 py-3 flex items-center gap-3 border-b border-gray-100">
               <div className="flex gap-1.5">
                 <div className="w-3 h-3 rounded-full bg-red-400" />
@@ -141,12 +141,12 @@ export function Hero() {
               <div className="flex items-center gap-2 ml-1">
                 <div
                   className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white"
-                  style={{ background: "#f97316" }}
+                  style={{ background: "#6b7280" }}
                 >
-                  T
+                  D
                 </div>
                 <span className="text-xs font-medium text-gray-700">
-                  ThreadBot
+                  David R.
                 </span>
                 <span className="w-1.5 h-1.5 rounded-full bg-green-500 ml-0.5" />
               </div>
@@ -160,11 +160,11 @@ export function Hero() {
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: 0.5 + i * 0.2 }}
-                  className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
+                  className={`flex ${msg.role === "jonathan" ? "justify-end" : "justify-start"}`}
                 >
                   <div
                     className={`max-w-[80%] px-3 py-2 rounded-2xl text-xs leading-relaxed ${
-                      msg.role === "user"
+                      msg.role === "jonathan"
                         ? "bg-[#f97316] text-white rounded-br-sm"
                         : "bg-white text-gray-700 border border-gray-100 rounded-bl-sm shadow-sm"
                     }`}
@@ -174,18 +174,18 @@ export function Hero() {
                 </motion.div>
               ))}
 
-              {/* Typing indicator */}
+              {/* Typing indicator — Jonathan writing */}
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.5 }}
-                className="flex justify-start"
+                className="flex justify-end"
               >
-                <div className="bg-white border border-gray-100 rounded-2xl rounded-bl-sm px-3 py-2 shadow-sm flex gap-1 items-center">
+                <div className="bg-[#f97316]/20 border border-[#f97316]/20 rounded-2xl rounded-br-sm px-3 py-2 flex gap-1 items-center">
                   {[0, 0.2, 0.4].map((delay, i) => (
                     <motion.div
                       key={i}
-                      className="w-1.5 h-1.5 rounded-full bg-gray-300"
+                      className="w-1.5 h-1.5 rounded-full bg-[#f97316]"
                       animate={{ opacity: [0.3, 1, 0.3] }}
                       transition={{ duration: 1, delay, repeat: Infinity }}
                     />

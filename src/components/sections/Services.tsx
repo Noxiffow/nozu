@@ -5,31 +5,31 @@ import { FlutedGlassCard } from "@/components/ui/fluted-glass-card";
 
 const services = [
   {
-    icon: "🤖",
-    title: "Chatbots IA",
-    subtitle: "Para e-commerce y atención al cliente",
+    icon: "🔧",
+    title: "Backend & APIs",
+    subtitle: "El motor detrás de tu producto",
     description:
-      "Chatbots conversacionales conectados a tu catálogo, stock y pedidos. Sin respuestas genéricas — el bot conoce tu negocio.",
-    tags: ["FastAPI", "Groq AI", "PostgreSQL"],
-    detail: "Integración con WhatsApp, web o Telegram según lo que necesites.",
+      "Diseño y construyo APIs REST, bases de datos y lógica de servidor. Desde un MVP hasta algo que ya tiene usuarios y necesita funcionar de verdad.",
+    tags: ["FastAPI", "Python", "PostgreSQL", "Docker", "Railway"],
+    detail: "Desplegado y documentado desde el primer día — no entrego código sin deployar.",
+  },
+  {
+    icon: "🔗",
+    title: "Integraciones",
+    subtitle: "Para que tus herramientas hablen entre sí",
+    description:
+      "Conecto sistemas que no se comunican: APIs de terceros, webhooks, sincronización de datos. Sin intervención manual en el medio.",
+    tags: ["Python", "Webhooks", "REST APIs", "n8n"],
+    detail: "Trabajo con lo que ya tienes — no hace falta cambiar de plataforma.",
   },
   {
     icon: "⚙️",
-    title: "Automatizaciones n8n",
+    title: "Automatizaciones",
     subtitle: "Workflows que trabajan mientras duermes",
     description:
-      "Conecto tus herramientas para que dejen de depender de que alguien haga algo manualmente. Emails, notificaciones, sincronización de datos.",
-    tags: ["n8n", "Webhooks", "APIs"],
-    detail: "Sin código vendor-lock — todo en tu propio servidor si quieres.",
-  },
-  {
-    icon: "🔌",
-    title: "APIs REST",
-    subtitle: "El backend detrás de tu producto",
-    description:
-      "APIs limpias, documentadas y desplegadas. Desde un MVP rápido hasta algo más sólido según lo que necesite tu proyecto.",
-    tags: ["FastAPI", "Docker", "Railway"],
-    detail: "Desplegado desde el primer día — no te entrego código sin deployar.",
+      "Automatizo procesos que ahora dependen de que alguien haga algo a mano. Emails, notificaciones, reportes, sincronización de datos.",
+    tags: ["n8n", "Python", "Cron jobs", "Webhooks"],
+    detail: "Sin vendor lock-in — todo en tu propio servidor si quieres.",
   },
 ];
 
