@@ -9,9 +9,9 @@ const projects = [
     subtitle: "Asistente IA para e-commerce",
     description:
       "Chatbot conversacional completo para tienda de ropa. Catálogo interactivo, gestión de pedidos, control de stock y automatizaciones de email con n8n. Panel admin con estadísticas en tiempo real.",
-    tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Railway"],
+    tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Fly.io"],
     github: "https://github.com/Noxiffow/threadbot-winowin",
-    demo: "https://threadbot-winowin-production.up.railway.app",
+    demo: "https://threadbot-winowin.fly.dev",
     status: "En producción",
     statusColor: "text-green-400 bg-green-400/10 border-green-400/20",
     detail:
