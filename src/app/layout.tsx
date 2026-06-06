@@ -16,21 +16,21 @@ export const metadata: Metadata = {
   title: "Nozu · Jonathan Neto — Freelance Técnico",
   description:
     "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos — sin tecnicismos ni rodeos.",
-  metadataBase: new URL("https://noxiffow.github.io"),
+  metadataBase: new URL("https://nozutech.dev"),
   alternates: {
-    canonical: "https://noxiffow.github.io/nozu/",
+    canonical: "https://nozutech.dev/",
   },
   openGraph: {
     title: "Nozu · Jonathan Neto — Freelance Técnico",
     description:
       "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
-    url: "https://noxiffow.github.io/nozu/",
+    url: "https://nozutech.dev/",
     siteName: "Nozu",
     locale: "es_ES",
     type: "website",
     images: [
       {
-        url: "/nozu/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Nozu — Freelance Técnico · Jonathan Neto",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Nozu · Jonathan Neto — Freelance Técnico",
     description:
       "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
-    images: ["/nozu/og-image.png"],
+    images: ["/og-image.png"],
   },
 };
 
@@ -51,9 +51,9 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://noxiffow.github.io/nozu/#jonathan",
+      "@id": "https://nozutech.dev/#jonathan",
       "name": "Jonathan Neto",
-      "url": "https://noxiffow.github.io/nozu/",
+      "url": "https://nozutech.dev/",
       "email": "natescripts@gmail.com",
       "jobTitle": "Freelance Técnico",
       "knowsAbout": [
@@ -72,11 +72,11 @@ const jsonLd = {
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://noxiffow.github.io/nozu/#nozu",
+      "@id": "https://nozutech.dev/#nozu",
       "name": "Nozu",
-      "url": "https://noxiffow.github.io/nozu/",
+      "url": "https://nozutech.dev/",
       "description": "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
-      "founder": { "@id": "https://noxiffow.github.io/nozu/#jonathan" },
+      "founder": { "@id": "https://nozutech.dev/#jonathan" },
       "areaServed": "ES",
       "availableLanguage": "es",
       "email": "natescripts@gmail.com",

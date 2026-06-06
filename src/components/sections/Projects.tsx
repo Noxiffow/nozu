@@ -12,7 +12,7 @@ const projects = [
     tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Fly.io"],
     github: "https://github.com/Noxiffow/threadbot-winowin",
     demo: null,
-    video: "/nozu/videos/threadbot-demo.mp4",
+    video: "/videos/threadbot-demo.mp4",
     status: "Completado",
     statusColor: "text-blue-400 bg-blue-400/10 border-blue-400/20",
     detail:

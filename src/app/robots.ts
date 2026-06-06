@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://noxiffow.github.io/nozu/sitemap.xml",
+    sitemap: "https://nozutech.dev/sitemap.xml",
   };
 }
