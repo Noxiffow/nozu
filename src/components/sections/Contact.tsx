@@ -35,13 +35,13 @@ export function Contact() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
           <a
-            href="mailto:natescripts@gmail.com?subject=Proyecto%20freelance"
+            href="mailto:jotadev@nozutech.dev?subject=Proyecto%20freelance"
             className="px-8 py-3.5 rounded-xl font-semibold text-sm bg-[#f97316] text-white
               hover:bg-[#ea6c0a] transition-all duration-200
               shadow-[0_8px_28px_rgba(249,115,22,0.35)] hover:shadow-[0_8px_32px_rgba(249,115,22,0.5)]
               hover:-translate-y-0.5 active:translate-y-0"
           >
-            natescripts@gmail.com
+            jotadev@nozutech.dev
           </a>
           <a
             href="https://github.com/Noxiffow"

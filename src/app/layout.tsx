@@ -54,7 +54,7 @@ const jsonLd = {
       "@id": "https://nozutech.dev/#jonathan",
       "name": "Jonathan Neto",
       "url": "https://nozutech.dev/",
-      "email": "natescripts@gmail.com",
+      "email": "jotadev@nozutech.dev",
       "jobTitle": "Freelance Técnico",
       "knowsAbout": [
         "Automatizaciones",
@@ -82,7 +82,7 @@ const jsonLd = {
       "founder": { "@id": "https://nozutech.dev/#jonathan" },
       "areaServed": "ES",
       "availableLanguage": "es",
-      "email": "natescripts@gmail.com",
+      "email": "jotadev@nozutech.dev",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Servicios Nozu",
