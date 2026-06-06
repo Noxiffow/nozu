@@ -68,7 +68,10 @@ const jsonLd = {
         "@type": "PostalAddress",
         "addressCountry": "ES"
       },
-      "sameAs": ["https://github.com/Noxiffow"]
+      "sameAs": [
+        "https://github.com/Noxiffow",
+        "https://noxiffow.github.io/nozu/"
+      ]
     },
     {
       "@type": "ProfessionalService",
