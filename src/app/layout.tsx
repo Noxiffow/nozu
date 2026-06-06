@@ -46,6 +46,74 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://noxiffow.github.io/nozu/#jonathan",
+      "name": "Jonathan Neto",
+      "url": "https://noxiffow.github.io/nozu/",
+      "email": "natescripts@gmail.com",
+      "jobTitle": "Freelance Técnico",
+      "knowsAbout": [
+        "Automatizaciones",
+        "Desarrollo web",
+        "Chatbots",
+        "n8n",
+        "FastAPI",
+        "Python"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ES"
+      },
+      "sameAs": ["https://github.com/Noxiffow"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://noxiffow.github.io/nozu/#nozu",
+      "name": "Nozu",
+      "url": "https://noxiffow.github.io/nozu/",
+      "description": "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
+      "founder": { "@id": "https://noxiffow.github.io/nozu/#jonathan" },
+      "areaServed": "ES",
+      "availableLanguage": "es",
+      "email": "natescripts@gmail.com",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios Nozu",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Páginas Web",
+              "description": "Diseño y desarrollo de webs profesionales para negocios."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Automatizaciones",
+              "description": "Automatización de procesos con n8n: emails, notificaciones, reservas y más."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Chatbots e Integraciones",
+              "description": "Chatbots para WhatsApp y web. Integración entre herramientas y APIs."
+            }
+          }
+        ]
+      }
+    }
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -56,6 +124,12 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[#0d0d0d] text-[#e8e3dc]">
         {children}
       </body>
