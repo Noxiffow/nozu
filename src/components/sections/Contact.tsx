@@ -2,6 +2,15 @@
 
 import { motion } from "framer-motion";
 
+function handleEmail() {
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    window.location.href = "mailto:jotadev@nozutech.dev?subject=Proyecto%20freelance";
+  } else {
+    window.open("https://mail.google.com/mail/?view=cm&to=jotadev@nozutech.dev&su=Proyecto%20freelance", "_blank");
+  }
+}
+
 export function Contact() {
   return (
     <section
@@ -47,15 +56,15 @@ export function Contact() {
             </svg>
             WhatsApp
           </a>
-          <a
-            href="mailto:jotadev@nozutech.dev?subject=Proyecto%20freelance"
+          <button
+            onClick={handleEmail}
             className="px-8 py-3.5 rounded-xl font-semibold text-sm bg-[#f97316] text-white
               hover:bg-[#ea6c0a] transition-all duration-200
               shadow-[0_8px_28px_rgba(249,115,22,0.35)] hover:shadow-[0_8px_32px_rgba(249,115,22,0.5)]
-              hover:-translate-y-0.5 active:translate-y-0"
+              hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
           >
             jotadev@nozutech.dev
-          </a>
+          </button>
           <a
             href="https://github.com/Noxiffow"
             target="_blank"
