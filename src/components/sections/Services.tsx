@@ -5,31 +5,31 @@ import { FlutedGlassCard } from "@/components/ui/fluted-glass-card";
 
 const services = [
   {
-    icon: "🔧",
-    title: "Backend & APIs",
-    subtitle: "El motor detrás de tu producto",
+    icon: "🌐",
+    title: "Páginas Web",
+    subtitle: "La cara digital de tu negocio",
     description:
-      "Diseño y construyo APIs REST, bases de datos y lógica de servidor. Desde un MVP hasta algo que ya tiene usuarios y necesita funcionar de verdad.",
-    tags: ["FastAPI", "Python", "PostgreSQL", "Docker", "Railway"],
-    detail: "Desplegado y documentado desde el primer día — no entrego código sin deployar.",
-  },
-  {
-    icon: "🔗",
-    title: "Integraciones",
-    subtitle: "Para que tus herramientas hablen entre sí",
-    description:
-      "Conecto sistemas que no se comunican: APIs de terceros, webhooks, sincronización de datos. Sin intervención manual en el medio.",
-    tags: ["Python", "Webhooks", "REST APIs", "n8n"],
-    detail: "Trabajo con lo que ya tienes — no hace falta cambiar de plataforma.",
+      "Te hago la web aunque no tengas claro qué quieres. Tú aportas las fotos y el contenido, yo me encargo del diseño, el desarrollo y que quede online.",
+    tags: ["Next.js", "Astro", "GitHub Pages", "Railway"],
+    detail: "Entregada funcionando desde el primer día — no versiones a medias.",
   },
   {
     icon: "⚙️",
     title: "Automatizaciones",
     subtitle: "Workflows que trabajan mientras duermes",
     description:
-      "Automatizo procesos que ahora dependen de que alguien haga algo a mano. Emails, notificaciones, reportes, sincronización de datos.",
-    tags: ["n8n", "Python", "Cron jobs", "Webhooks"],
-    detail: "Sin vendor lock-in — todo en tu propio servidor si quieres.",
+      "Automatizo los procesos que ahora dependen de que alguien haga algo a mano. Reservas, emails, notificaciones, reportes, sincronización de datos.",
+    tags: ["n8n", "Python", "Webhooks", "Make"],
+    detail: "Trabajo con lo que ya tienes — no hace falta cambiar de plataforma.",
+  },
+  {
+    icon: "🤖",
+    title: "Chatbots e Integraciones",
+    subtitle: "Tu negocio disponible 24/7",
+    description:
+      "Chatbots en WhatsApp o en tu web que responden, gestionan pedidos o atienden clientes. Conecto herramientas que no se hablan entre sí.",
+    tags: ["WhatsApp API", "FastAPI", "n8n", "IA"],
+    detail: "Sin intervención manual — el bot trabaja, tú descansas.",
   },
 ];
 

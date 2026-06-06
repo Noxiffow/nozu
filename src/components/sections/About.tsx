@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const stack = [
-  { label: "Lenguajes", value: "Python · JavaScript · Java · C# · SQL" },
-  { label: "Backend", value: "FastAPI · PostgreSQL · Docker · Railway" },
-  { label: "Automatización", value: "n8n" },
-  { label: "Frontend", value: "HTML · CSS" },
-  { label: "Herramientas", value: "Git · Linux" },
+  { label: "Lenguajes", value: "Python · JavaScript · TypeScript · SQL" },
+  { label: "Web", value: "Next.js · Astro · React · FastAPI" },
+  { label: "Automatización", value: "n8n · Webhooks · Cron jobs" },
+  { label: "Infra", value: "Docker · Railway · GitHub Pages · Linux" },
+  { label: "Herramientas", value: "Git · PostgreSQL · WhatsApp API" },
 ];
 
 export function About() {
@@ -36,19 +36,19 @@ export function About() {
           </h2>
           <div className="space-y-4 text-[#a09890] text-sm leading-relaxed">
             <p>
-              Desarrollador backend con foco en sistemas que realmente se usan.
-              Terminando el Grado Superior de DAM mientras construyo proyectos
-              reales con clientes reales.
+              Freelance técnico terminando el Grado Superior de DAM. Hago webs,
+              automatizaciones y chatbots para negocios que quieren dejar de
+              hacer las cosas a mano.
             </p>
             <p>
-              No me interesa entregar código que queda en un repositorio sin
-              usar. Me interesa que lo que construyo funcione en producción y
-              solucione un problema concreto.
+              No me interesa entregar algo que queda sin usar. Me interesa que
+              funcione en producción y solucione un problema concreto — ya sea
+              una web, un bot de WhatsApp o un flujo automático de reservas.
             </p>
             <p>
-              Si tienes un proyecto técnico claro, probablemente puedo ayudarte.
-              Si no está claro, lo aclaramos juntos. Y si no puedo, te lo digo
-              directamente.
+              Si tienes claro lo que necesitas, arrancamos. Si no está claro,
+              lo aclaramos juntos. Y si no puedo hacerlo, te lo digo — sin
+              cobrarte por intentarlo.
             </p>
           </div>
 

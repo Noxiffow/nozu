@@ -13,17 +13,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nozu · Jonathan Neto — Backend Freelance",
+  title: "Nozu · Jonathan Neto — Freelance Técnico",
   description:
-    "Desarrollador backend freelance. Chatbots IA, automatizaciones con n8n y APIs REST para negocios que quieren sistemas que funcionen de verdad.",
+    "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos — sin tecnicismos ni rodeos.",
+  metadataBase: new URL("https://noxiffow.github.io"),
+  alternates: {
+    canonical: "https://noxiffow.github.io/nozu/",
+  },
   openGraph: {
-    title: "Nozu · Jonathan Neto — Backend Freelance",
+    title: "Nozu · Jonathan Neto — Freelance Técnico",
     description:
-      "Chatbots IA, automatizaciones con n8n y APIs REST. Si tienes un proyecto técnico concreto, hablemos.",
-    url: "https://noxiffow.github.io/nozu",
+      "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
+    url: "https://noxiffow.github.io/nozu/",
     siteName: "Nozu",
     locale: "es_ES",
     type: "website",
+    images: [
+      {
+        url: "/nozu/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Nozu — Freelance Técnico · Jonathan Neto",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nozu · Jonathan Neto — Freelance Técnico",
+    description:
+      "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
+    images: ["/nozu/og-image.png"],
   },
 };
 

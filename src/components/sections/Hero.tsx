@@ -80,7 +80,7 @@ export function Hero() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Backend que funciona de verdad
+            Tu negocio, funcionando de verdad
           </motion.h1>
 
           <motion.p
@@ -89,8 +89,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[#a09890] text-lg leading-relaxed mb-8"
           >
-            Construyo APIs, automatizaciones e integraciones para negocios
-            que necesitan sistemas que funcionen — no demos.
+            Webs, automatizaciones y chatbots para negocios que quieren
+            dejar de hacer las cosas a mano — sin tecnicismos.
           </motion.p>
 
           <motion.div
