@@ -11,9 +11,10 @@ const projects = [
       "Chatbot conversacional completo para tienda de ropa. Catálogo interactivo, gestión de pedidos, control de stock y automatizaciones de email con n8n. Panel admin con estadísticas en tiempo real.",
     tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Fly.io"],
     github: "https://github.com/Noxiffow/threadbot-winowin",
-    demo: "https://threadbot-winowin.fly.dev",
-    status: "En producción",
-    statusColor: "text-green-400 bg-green-400/10 border-green-400/20",
+    demo: null,
+    video: "/nozu/videos/threadbot-demo.mp4",
+    status: "Completado",
+    statusColor: "text-blue-400 bg-blue-400/10 border-blue-400/20",
     detail:
       "El bot conoce el catálogo en tiempo real, gestiona el estado de cada pedido y dispara emails automáticos via n8n cuando hay cambios.",
   },
@@ -87,6 +88,18 @@ export function Projects() {
                 }
                 middleContent={
                   <div>
+                    {project.video && (
+                      <div className="mb-4 rounded-lg overflow-hidden border border-white/[0.06]">
+                        <video
+                          src={project.video}
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          className="w-full max-h-48 object-cover"
+                        />
+                      </div>
+                    )}
                     <p className="text-[#a09890] text-sm leading-relaxed mb-4">
                       {project.description}
                     </p>
