@@ -11,7 +11,7 @@ import { Contact } from "@/components/sections/Contact";
 export default function Home() {
   return (
     <>
-      {/* © 2026 Jonathan Neto (Nozu). All rights reserved.
+      {/* © 2026 Jonathan Neto (NozuTech). All rights reserved.
           Unauthorized copying or reproduction of this website is prohibited. */}
       <Header />
       <main className="flex-1">

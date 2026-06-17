@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nozu · Jonathan Neto — Freelance Técnico",
+  title: "NozuTech · Jonathan Neto — Freelance Técnico",
   description:
     "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos — sin tecnicismos ni rodeos.",
   metadataBase: new URL("https://nozutech.dev"),
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     canonical: "https://nozutech.dev/",
   },
   openGraph: {
-    title: "Nozu · Jonathan Neto — Freelance Técnico",
+    title: "NozuTech · Jonathan Neto — Freelance Técnico",
     description:
       "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
     url: "https://nozutech.dev/",
-    siteName: "Nozu",
+    siteName: "NozuTech",
     locale: "es_ES",
     type: "website",
     images: [
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nozu — Freelance Técnico · Jonathan Neto",
+        alt: "NozuTech — Freelance Técnico · Jonathan Neto",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nozu · Jonathan Neto — Freelance Técnico",
+    title: "NozuTech · Jonathan Neto — Freelance Técnico",
     description:
       "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
     images: ["/og-image.png"],
@@ -76,7 +76,7 @@ const jsonLd = {
     {
       "@type": "ProfessionalService",
       "@id": "https://nozutech.dev/#nozu",
-      "name": "Nozu",
+      "name": "NozuTech",
       "url": "https://nozutech.dev/",
       "description": "Webs, automatizaciones y chatbots para negocios. Dime qué necesitas y lo resolvemos.",
       "founder": { "@id": "https://nozutech.dev/#jonathan" },
@@ -85,7 +85,7 @@ const jsonLd = {
       "email": "jotadev@nozutech.dev",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Servicios Nozu",
+        "name": "Servicios NozuTech",
         "itemListElement": [
           {
             "@type": "Offer",

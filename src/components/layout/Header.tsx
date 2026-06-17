@@ -39,7 +39,7 @@ export function Header() {
           href="#"
           className="font-bold text-lg tracking-tight text-white hover:text-[#f97316] transition-colors"
         >
-          Nozu
+          NozuTech
         </a>
 
         {/* Desktop nav */}
