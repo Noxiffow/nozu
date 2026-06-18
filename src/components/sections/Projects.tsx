@@ -13,11 +13,12 @@ const projectsMeta = [
     statusColor: "text-blue-400 bg-blue-400/10 border-blue-400/20",
   },
   {
-    tags: ["Python", "WhatsApp API", "PostgreSQL"],
-    github: "https://github.com/Noxiffow/whatsapp-crm",
+    tags: ["Astro", "TypeScript", "CSS", "Vercel"],
+    github: "https://github.com/Noxiffow/syn924-artist-portfolio",
     demo: null,
     video: null,
-    statusColor: "text-amber-400 bg-amber-400/10 border-amber-400/20",
+    image: "/images/project-artist-portfolio.png",
+    statusColor: "text-green-400 bg-green-400/10 border-green-400/20",
   },
 ];
 
@@ -55,6 +56,11 @@ export function Projects() {
                       {meta.video && (
                         <div className="mb-4 rounded-lg overflow-hidden border border-white/[0.06]">
                           <video src={meta.video} autoPlay muted loop playsInline className="w-full max-h-48 object-cover" />
+                        </div>
+                      )}
+                      {!meta.video && meta.image && (
+                        <div className="mb-4 rounded-lg overflow-hidden border border-white/[0.06]">
+                          <img src={meta.image} alt="" className="w-full max-h-48 object-cover object-top" />
                         </div>
                       )}
                       <p className="text-[#a09890] text-sm leading-relaxed mb-4">{project.description}</p>

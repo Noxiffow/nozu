@@ -83,13 +83,13 @@ export const translations = {
             "El bot conoce el catálogo en tiempo real, gestiona el estado de cada pedido y dispara emails automáticos via n8n cuando hay cambios.",
         },
         {
-          title: "WhatsApp CRM",
-          subtitle: "CRM para conversaciones de WhatsApp",
+          title: "Portfolio Artista Digital",
+          subtitle: "Portfolio para ilustrador de personajes",
           description:
-            "MVP de CRM para centralizar contactos y conversaciones de WhatsApp. Gestión de estados y seguimiento de leads desde un panel único.",
-          status: "MVP",
+            "Portfolio para artista de ilustración digital. Galería masonry con filtro de contenido, lightbox en desktop, toggle de preferencia y deploy en Vercel.",
+          status: "Completado",
           detail:
-            "Centraliza conversaciones de WhatsApp en un CRM propio — sin depender de herramientas de pago ni perder el historial.",
+            "Diseño dark surrealista con paleta OKLCH, fuentes display/mono, headers de seguridad y arquitectura estática con Astro.",
         },
       ],
     },
@@ -233,13 +233,13 @@ export const translations = {
             "The bot knows the catalog in real time, tracks every order's status and fires automated emails via n8n whenever something changes.",
         },
         {
-          title: "WhatsApp CRM",
-          subtitle: "CRM for WhatsApp conversations",
+          title: "Digital Artist Portfolio",
+          subtitle: "Portfolio for character illustrator",
           description:
-            "CRM MVP to centralize WhatsApp contacts and conversations. Status management and lead tracking from a single panel.",
-          status: "MVP",
+            "Portfolio for a digital illustration artist. Masonry gallery with content filter, desktop lightbox, preference toggle and Vercel deploy.",
+          status: "Completed",
           detail:
-            "Centralizes WhatsApp conversations in a self-owned CRM — without depending on paid tools or losing chat history.",
+            "Dark surrealist design with OKLCH palette, display/mono fonts, security headers and static architecture with Astro.",
         },
       ],
     },
