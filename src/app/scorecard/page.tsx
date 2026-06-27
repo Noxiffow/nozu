@@ -107,7 +107,7 @@ function getPersonalizedRecommendation(scores: { dependencia: number; visibilida
     conversion: 'Tu capacidad de convertir online es limitada. Una web con llamadas a la acción claras, formularios y WhatsApp integrado multiplica tus oportunidades de venta.'
   };
 
-  if (scores[maxArea[0]] - scores[minArea[0]] <= 1) {
+  if (scores[maxArea[0] as keyof typeof scores] - scores[minArea[0] as keyof typeof scores] <= 1) {
     return 'Tus tres áreas están equilibradas, pero con margen de mejora en todas. Una web profesional refuerza los tres pilares a la vez.';
   }
 
