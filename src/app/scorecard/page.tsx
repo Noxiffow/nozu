@@ -244,7 +244,7 @@ export default function ScorecardPage() {
 
             {/* CTA */}
             <a
-              href="https://wa.me/34604923459?text=Hola%20NozuTech%20%F0%9F%91%8B%20Vi%20la%20scorecard%20y%20quiero%20hablar%20de%20mi%20diagn%C3%B3stico"
+              href="https://wa.me/34604923459?text=Hola%20NozuTech%2C%20vi%20la%20scorecard%20y%20quiero%20hablar%20de%20mi%20diagn%C3%B3stico"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-[#f97316] text-[#0d0d0d] py-3 px-8 rounded-2xl font-semibold text-center text-lg hover:opacity-90 transition-opacity w-full mt-2"
