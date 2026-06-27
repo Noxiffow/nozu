@@ -54,7 +54,7 @@ export const translations = {
       label: "Sobre mí",
       title: "Jonathan Neto",
       paragraphs: [
-        "Freelance técnico terminando el Grado Superior de DAM. Hago webs, automatizaciones y chatbots para negocios que quieren dejar de hacer las cosas a mano.",
+        "Freelance independiente. Hago webs, automatizaciones y chatbots para negocios que quieren dejar de hacer las cosas a mano.",
         "No me interesa entregar algo que queda sin usar. Me interesa que funcione en producción y solucione un problema concreto — ya sea una web, un bot de WhatsApp o un flujo automático de reservas.",
         "Si tienes claro lo que necesitas, arrancamos. Si no está claro, lo aclaramos juntos. Y si no puedo hacerlo, te lo digo — sin cobrarte por intentarlo.",
       ],
