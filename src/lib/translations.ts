@@ -91,6 +91,15 @@ export const translations = {
           detail:
             "Diseño dark surrealista con paleta OKLCH, fuentes display/mono, headers de seguridad y arquitectura estática con Astro.",
         },
+        {
+          title: "Loyalty Wallet",
+          subtitle: "Tarjeta de fidelidad en Apple & Google Wallet",
+          description:
+            "Sistema completo de tarjeta de fidelidad digital para negocios. Los clientes añaden la tarjeta a Apple o Google Wallet y reciben sellos automáticamente — sin instalar ninguna app.",
+          status: "Completado",
+          detail:
+            "Push nativo via APNs (HTTP/2) en iOS y Google Wallet API en Android. Panel admin instalable como PWA con gestión de clientes, sellos, caducidad VIP y recordatorios por email.",
+        },
       ],
     },
     process: {
@@ -240,6 +249,15 @@ export const translations = {
           status: "Completed",
           detail:
             "Dark surrealist design with OKLCH palette, display/mono fonts, security headers and static architecture with Astro.",
+        },
+        {
+          title: "Loyalty Wallet",
+          subtitle: "Loyalty card for Apple & Google Wallet",
+          description:
+            "Complete digital loyalty card system for businesses. Clients add the card to Apple or Google Wallet and receive stamps automatically — no app required.",
+          status: "Completed",
+          detail:
+            "Native push via APNs (HTTP/2) on iOS and Google Wallet API on Android. Admin panel installable as PWA with client management, stamps, VIP expiry and email reminders.",
         },
       ],
     },

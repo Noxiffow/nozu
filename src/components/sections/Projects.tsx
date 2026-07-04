@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRef, useState, useEffect, useCallback } from "react";
 import { ShiftCard } from "@/components/ui/shift-card";
 import { useLang } from "@/contexts/LanguageContext";
 
@@ -10,6 +11,7 @@ const projectsMeta = [
     github: "https://github.com/Noxiffow/threadbot-winowin",
     demo: null,
     video: "/videos/threadbot-demo.mp4",
+    image: null,
     statusColor: "text-blue-400 bg-blue-400/10 border-blue-400/20",
   },
   {
@@ -20,25 +22,83 @@ const projectsMeta = [
     image: "/images/project-artist-portfolio.png",
     statusColor: "text-green-400 bg-green-400/10 border-green-400/20",
   },
+  {
+    tags: ["Node.js", "Express", "Apple Wallet", "Google Wallet", "APNs", "PWA", "Railway", "SQLite"],
+    github: "https://github.com/Noxiffow/loyalty-wallet",
+    demo: null,
+    video: null,
+    image: null,
+    statusColor: "text-purple-400 bg-purple-400/10 border-purple-400/20",
+  },
 ];
 
 export function Projects() {
   const { t } = useLang();
   const { projects } = t;
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const updateActive = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el || !el.children.length) return;
+    const cardWidth = (el.children[0] as HTMLElement).offsetWidth + 24;
+    setActiveIndex(Math.round(el.scrollLeft / cardWidth));
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.addEventListener("scroll", updateActive, { passive: true });
+    return () => el.removeEventListener("scroll", updateActive);
+  }, [updateActive]);
+
+  const scrollTo = (i: number) => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const card = el.children[i] as HTMLElement;
+    el.scrollTo({ left: card.offsetLeft, behavior: "smooth" });
+  };
 
   return (
-    <section id="proyectos" className="py-24 px-6">
-      <div className="max-w-5xl mx-auto">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="mb-16">
+    <section id="proyectos" className="py-24">
+      <div className="max-w-5xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="mb-16"
+        >
           <p className="text-xs font-mono text-[#f97316] mb-3 tracking-widest uppercase">{projects.label}</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white">{projects.title}</h2>
         </motion.div>
+      </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+      <div className="relative">
+        {/* fade edge right */}
+        <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-[#0a0908] to-transparent pointer-events-none z-10" />
+
+        <div
+          ref={scrollRef}
+          className="flex gap-6 overflow-x-auto pb-2"
+          style={{
+            scrollbarWidth: "none",
+            msOverflowStyle: "none",
+            paddingLeft: "max(24px, calc((100vw - 1024px) / 2 + 24px))",
+            paddingRight: "max(24px, calc((100vw - 1024px) / 2 + 24px))",
+          }}
+        >
           {projects.items.map((project, i) => {
             const meta = projectsMeta[i];
             return (
-              <motion.div key={project.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.12 }}>
+              <motion.div
+                key={project.title}
+                className="flex-shrink-0 w-[85vw] md:w-[440px]"
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.12 }}
+              >
                 <ShiftCard
                   className="h-full"
                   topContent={
@@ -95,6 +155,20 @@ export function Projects() {
               </motion.div>
             );
           })}
+        </div>
+
+        {/* dot indicators */}
+        <div className="flex justify-center gap-2 mt-8">
+          {projects.items.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => scrollTo(i)}
+              aria-label={`Ir al proyecto ${i + 1}`}
+              className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                activeIndex === i ? "w-6 bg-[#f97316]" : "w-1.5 bg-white/20 hover:bg-white/40"
+              }`}
+            />
+          ))}
         </div>
       </div>
     </section>

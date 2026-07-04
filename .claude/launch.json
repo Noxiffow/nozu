@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "nozu-web-v2",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--port", "3132"],
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "out", "-l", "3132"],
       "port": 3132
     }
   ]
