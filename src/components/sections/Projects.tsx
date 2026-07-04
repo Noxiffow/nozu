@@ -5,6 +5,8 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import { ShiftCard } from "@/components/ui/shift-card";
 import { useLang } from "@/contexts/LanguageContext";
 
+const STATUS_COLOR = "text-[#f97316] bg-[#f97316]/10 border-[#f97316]/20";
+
 const projectsMeta = [
   {
     tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Fly.io"],
@@ -12,7 +14,7 @@ const projectsMeta = [
     demo: null,
     video: "/videos/threadbot-demo.mp4",
     image: null,
-    statusColor: "text-blue-400 bg-blue-400/10 border-blue-400/20",
+    statusColor: STATUS_COLOR,
   },
   {
     tags: ["Astro", "TypeScript", "CSS", "Vercel"],
@@ -20,15 +22,15 @@ const projectsMeta = [
     demo: null,
     video: null,
     image: "/images/project-artist-portfolio.png",
-    statusColor: "text-green-400 bg-green-400/10 border-green-400/20",
+    statusColor: STATUS_COLOR,
   },
   {
     tags: ["Node.js", "Express", "Apple Wallet", "Google Wallet", "APNs", "PWA", "Railway", "SQLite"],
     github: "https://github.com/Noxiffow/loyalty-wallet",
     demo: null,
     video: null,
-    image: null,
-    statusColor: "text-purple-400 bg-purple-400/10 border-purple-400/20",
+    image: "/images/project-loyalty-wallet.png",
+    statusColor: STATUS_COLOR,
   },
 ];
 
