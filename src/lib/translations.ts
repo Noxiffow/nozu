@@ -100,6 +100,15 @@ export const translations = {
           detail:
             "Push nativo via APNs (HTTP/2) en iOS y Google Wallet API en Android. Panel admin instalable como PWA con gestión de clientes, sellos, caducidad VIP y recordatorios por email.",
         },
+        {
+          title: "Client Portal",
+          subtitle: "Panel de onboarding para clientes freelance",
+          description:
+            "Sistema de onboarding para nuevos clientes freelance. Cada cliente accede solo a su espacio — aislamiento real de datos con RLS a nivel de base de datos, no solo filtros en el frontend.",
+          status: "En producción",
+          detail:
+            "El RLS de Supabase garantiza que ningún cliente puede ver datos de otro aunque manipule la URL — la seguridad está en la base de datos, no en el middleware.",
+        },
       ],
     },
     process: {
@@ -123,6 +132,32 @@ export const translations = {
         },
       ],
     },
+    payment: {
+      label: "Condiciones de pago",
+      title: "Sin letras pequeñas",
+      items: [
+        {
+          icon: "50%",
+          title: "La mitad para arrancar",
+          body: "Cuando confirmamos el proyecto, pagas el 50% para reservar tu slot. A partir de ahí, empezamos a trabajar.",
+        },
+        {
+          icon: "50%",
+          title: "La mitad al entregar",
+          body: "El resto lo pagas cuando el proyecto está terminado y funcionando. No antes.",
+        },
+        {
+          icon: "↔",
+          title: "El precio es el precio",
+          body: "Lo que acordamos al principio es lo que pagas. Si durante el proceso el alcance cambia, lo hablamos antes de hacer nada extra — sin sorpresas en la factura final.",
+        },
+        {
+          icon: "✕",
+          title: "Si cancelas, el anticipo se queda",
+          body: "Si decides parar el proyecto una vez que hemos arrancado, el 50% inicial no se devuelve. El trabajo ya está hecho.",
+        },
+      ],
+    },
     faq: {
       label: "FAQ",
       title: "Preguntas frecuentes",
@@ -142,6 +177,10 @@ export const translations = {
         {
           q: "¿Haces mantenimiento después de entregar?",
           a: "Si lo necesitas, sí. No desaparezco al entregar — si algo falla o quieres añadir algo después, lo hablamos. No tengo tarifas de soporte predefinidas: cada caso es diferente.",
+        },
+        {
+          q: "¿Cómo funciona el pago?",
+          a: "50% para arrancar el proyecto y reservar tu slot. El 50% restante al entregar, cuando el producto esté terminado y funcionando.",
         },
       ],
     },
@@ -259,6 +298,15 @@ export const translations = {
           detail:
             "Native push via APNs (HTTP/2) on iOS and Google Wallet API on Android. Admin panel installable as PWA with client management, stamps, VIP expiry and email reminders.",
         },
+        {
+          title: "Client Portal",
+          subtitle: "Onboarding panel for freelance clients",
+          description:
+            "Internal onboarding system for new freelance clients. Each client only accesses their own space — real data isolation with Row Level Security at the database level, not just frontend filters.",
+          status: "Live",
+          detail:
+            "Supabase RLS ensures no client can see another's data even if they manipulate the URL — security lives at the database, not the middleware.",
+        },
       ],
     },
     process: {
@@ -282,6 +330,32 @@ export const translations = {
         },
       ],
     },
+    payment: {
+      label: "Payment terms",
+      title: "No fine print",
+      items: [
+        {
+          icon: "50%",
+          title: "Half upfront",
+          body: "When we confirm the project, you pay 50% to reserve your slot. Work starts from there.",
+        },
+        {
+          icon: "50%",
+          title: "Half on delivery",
+          body: "The rest is paid when the project is finished and working. Not before.",
+        },
+        {
+          icon: "↔",
+          title: "The price is the price",
+          body: "What we agree at the start is what you pay. If scope changes during the project, we talk before doing anything extra — no surprise invoices.",
+        },
+        {
+          icon: "✕",
+          title: "If you cancel, the deposit stays",
+          body: "If you decide to stop the project after we've started, the initial 50% is non-refundable. The work is already done.",
+        },
+      ],
+    },
     faq: {
       label: "FAQ",
       title: "Frequently asked questions",
@@ -301,6 +375,10 @@ export const translations = {
         {
           q: "Do you do maintenance after delivery?",
           a: "If you need it, yes. I don't disappear after delivering — if something breaks or you want to add something later, we'll talk about it. I don't have predefined support rates: every case is different.",
+        },
+        {
+          q: "How does payment work?",
+          a: "50% upfront to kick off the project and reserve your slot. The remaining 50% on delivery, once everything is finished and working.",
         },
       ],
     },
