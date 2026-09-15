@@ -35,7 +35,7 @@ const projectsMeta = [
   {
     tags: ["Next.js", "Supabase", "TypeScript", "Tailwind", "Vercel"],
     github: null,
-    demo: "https://portal.nozutech.dev",
+    demo: null,
     video: null,
     image: "/images/project-client-portal.png",
     statusColor: STATUS_COLOR,

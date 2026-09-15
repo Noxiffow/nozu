@@ -71,7 +71,7 @@ export const translations = {
       label: "Proyectos",
       title: "Cosas que he construido",
       code: "Código",
-      liveDemo: "Demo en vivo",
+      liveDemo: "Ver sitio",
       items: [
         {
           title: "ThreadBot",
@@ -283,7 +283,7 @@ export const translations = {
       label: "Projects",
       title: "Things I've built",
       code: "Code",
-      liveDemo: "Live demo",
+      liveDemo: "View site",
       items: [
         {
           title: "ThreadBot",
