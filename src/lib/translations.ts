@@ -109,6 +109,15 @@ export const translations = {
           detail:
             "El RLS de Supabase garantiza que ningún cliente puede ver datos de otro aunque manipule la URL — la seguridad está en la base de datos, no en el middleware.",
         },
+        {
+          title: "Absoluto Reformas",
+          subtitle: "Rebrand y web corporativa desde cero",
+          description:
+            "Rediseño completo de plantilla genérica a web a medida. Formulario de presupuesto con traspaso automático de contexto entre páginas, galería de antes/después e identidad visual renovada.",
+          status: "En producción",
+          detail:
+            "SEO técnico completo: datos estructurados (Schema.org), sitemap indexado y metadatos por página. De cero presencia en buscadores a indexación activa en Google Search Console.",
+        },
       ],
     },
     process: {
@@ -311,6 +320,15 @@ export const translations = {
           status: "Live",
           detail:
             "Supabase RLS ensures no client can see another's data even if they manipulate the URL — security lives at the database, not the middleware.",
+        },
+        {
+          title: "Absoluto Reformas",
+          subtitle: "Rebrand and corporate website from scratch",
+          description:
+            "Full redesign from generic template to a custom, conversion-focused site. Budget form with automatic context passing between pages, before/after gallery of real works and renewed visual identity.",
+          status: "Live",
+          detail:
+            "Full technical SEO: structured data (Schema.org), indexed sitemap and per-page metadata. From zero search presence to active indexing in Google Search Console within days.",
         },
       ],
     },

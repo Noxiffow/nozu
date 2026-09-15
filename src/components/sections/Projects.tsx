@@ -40,6 +40,14 @@ const projectsMeta = [
     image: "/images/project-client-portal.png",
     statusColor: STATUS_COLOR,
   },
+  {
+    tags: ["Next.js", "TypeScript", "Tailwind", "Cloudflare Pages", "Workers", "SEO"],
+    github: null,
+    demo: "https://absolutoreformasyproyectos.com",
+    video: null,
+    image: "/images/project-absoluto-reformas.png",
+    statusColor: STATUS_COLOR,
+  },
 ];
 
 export function Projects() {
