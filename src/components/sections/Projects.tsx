@@ -37,7 +37,7 @@ const projectsMeta = [
     github: null,
     demo: "https://portal.nozutech.dev",
     video: null,
-    image: null,
+    image: "/images/project-client-portal.png",
     statusColor: STATUS_COLOR,
   },
 ];
