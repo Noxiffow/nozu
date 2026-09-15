@@ -9,6 +9,22 @@ const STATUS_COLOR = "text-[#f97316] bg-[#f97316]/10 border-[#f97316]/20";
 
 const projectsMeta = [
   {
+    tags: ["Next.js", "TypeScript", "Tailwind", "Cloudflare Pages", "Workers", "SEO"],
+    github: null,
+    demo: "https://absolutoreformasyproyectos.com",
+    video: null,
+    image: "/images/project-absoluto-reformas.png",
+    statusColor: STATUS_COLOR,
+  },
+  {
+    tags: ["Node.js", "Express", "Apple Wallet", "Google Wallet", "APNs", "PWA", "Railway", "SQLite"],
+    github: "https://github.com/Noxiffow/loyalty-wallet",
+    demo: null,
+    video: null,
+    image: "/images/project-loyalty-wallet.png",
+    statusColor: STATUS_COLOR,
+  },
+  {
     tags: ["FastAPI", "Groq AI", "n8n", "PostgreSQL", "Docker", "Fly.io"],
     github: "https://github.com/Noxiffow/threadbot-winowin",
     demo: null,
@@ -25,27 +41,11 @@ const projectsMeta = [
     statusColor: STATUS_COLOR,
   },
   {
-    tags: ["Node.js", "Express", "Apple Wallet", "Google Wallet", "APNs", "PWA", "Railway", "SQLite"],
-    github: "https://github.com/Noxiffow/loyalty-wallet",
-    demo: null,
-    video: null,
-    image: "/images/project-loyalty-wallet.png",
-    statusColor: STATUS_COLOR,
-  },
-  {
     tags: ["Next.js", "Supabase", "TypeScript", "Tailwind", "Vercel"],
     github: null,
     demo: null,
     video: null,
     image: "/images/project-client-portal.png",
-    statusColor: STATUS_COLOR,
-  },
-  {
-    tags: ["Next.js", "TypeScript", "Tailwind", "Cloudflare Pages", "Workers", "SEO"],
-    github: null,
-    demo: "https://absolutoreformasyproyectos.com",
-    video: null,
-    image: "/images/project-absoluto-reformas.png",
     statusColor: STATUS_COLOR,
   },
 ];

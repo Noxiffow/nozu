@@ -74,6 +74,24 @@ export const translations = {
       liveDemo: "Ver sitio",
       items: [
         {
+          title: "Absoluto Reformas",
+          subtitle: "Rebrand y web corporativa desde cero",
+          description:
+            "Rediseño completo de plantilla genérica a web a medida. Formulario de presupuesto con traspaso automático de contexto entre páginas, galería de antes/después e identidad visual renovada.",
+          status: "En producción",
+          detail:
+            "SEO técnico completo: datos estructurados (Schema.org), sitemap indexado y metadatos por página. De cero presencia en buscadores a indexación activa en Google Search Console.",
+        },
+        {
+          title: "Loyalty Wallet",
+          subtitle: "Tarjeta de fidelidad en Apple & Google Wallet",
+          description:
+            "Sistema completo de tarjeta de fidelidad digital para negocios. Los clientes añaden la tarjeta a Apple o Google Wallet y reciben sellos automáticamente — sin instalar ninguna app.",
+          status: "Completado",
+          detail:
+            "Push nativo via APNs (HTTP/2) en iOS y Google Wallet API en Android. Panel admin instalable como PWA con gestión de clientes, sellos, caducidad VIP y recordatorios por email.",
+        },
+        {
           title: "ThreadBot",
           subtitle: "Asistente IA para e-commerce",
           description:
@@ -92,15 +110,6 @@ export const translations = {
             "Diseño dark surrealista con paleta OKLCH, fuentes display/mono, headers de seguridad y arquitectura estática con Astro.",
         },
         {
-          title: "Loyalty Wallet",
-          subtitle: "Tarjeta de fidelidad en Apple & Google Wallet",
-          description:
-            "Sistema completo de tarjeta de fidelidad digital para negocios. Los clientes añaden la tarjeta a Apple o Google Wallet y reciben sellos automáticamente — sin instalar ninguna app.",
-          status: "Completado",
-          detail:
-            "Push nativo via APNs (HTTP/2) en iOS y Google Wallet API en Android. Panel admin instalable como PWA con gestión de clientes, sellos, caducidad VIP y recordatorios por email.",
-        },
-        {
           title: "Client Portal",
           subtitle: "Panel de onboarding para clientes freelance",
           description:
@@ -108,15 +117,6 @@ export const translations = {
           status: "En producción",
           detail:
             "El RLS de Supabase garantiza que ningún cliente puede ver datos de otro aunque manipule la URL — la seguridad está en la base de datos, no en el middleware.",
-        },
-        {
-          title: "Absoluto Reformas",
-          subtitle: "Rebrand y web corporativa desde cero",
-          description:
-            "Rediseño completo de plantilla genérica a web a medida. Formulario de presupuesto con traspaso automático de contexto entre páginas, galería de antes/después e identidad visual renovada.",
-          status: "En producción",
-          detail:
-            "SEO técnico completo: datos estructurados (Schema.org), sitemap indexado y metadatos por página. De cero presencia en buscadores a indexación activa en Google Search Console.",
         },
       ],
     },
@@ -286,6 +286,24 @@ export const translations = {
       liveDemo: "View site",
       items: [
         {
+          title: "Absoluto Reformas",
+          subtitle: "Rebrand and corporate website from scratch",
+          description:
+            "Full redesign from generic template to a custom, conversion-focused site. Budget form with automatic context passing between pages, before/after gallery of real works and renewed visual identity.",
+          status: "Live",
+          detail:
+            "Full technical SEO: structured data (Schema.org), indexed sitemap and per-page metadata. From zero search presence to active indexing in Google Search Console within days.",
+        },
+        {
+          title: "Loyalty Wallet",
+          subtitle: "Loyalty card for Apple & Google Wallet",
+          description:
+            "Complete digital loyalty card system for businesses. Clients add the card to Apple or Google Wallet and receive stamps automatically — no app required.",
+          status: "Completed",
+          detail:
+            "Native push via APNs (HTTP/2) on iOS and Google Wallet API on Android. Admin panel installable as PWA with client management, stamps, VIP expiry and email reminders.",
+        },
+        {
           title: "ThreadBot",
           subtitle: "AI assistant for e-commerce",
           description:
@@ -304,15 +322,6 @@ export const translations = {
             "Dark surrealist design with OKLCH palette, display/mono fonts, security headers and static architecture with Astro.",
         },
         {
-          title: "Loyalty Wallet",
-          subtitle: "Loyalty card for Apple & Google Wallet",
-          description:
-            "Complete digital loyalty card system for businesses. Clients add the card to Apple or Google Wallet and receive stamps automatically — no app required.",
-          status: "Completed",
-          detail:
-            "Native push via APNs (HTTP/2) on iOS and Google Wallet API on Android. Admin panel installable as PWA with client management, stamps, VIP expiry and email reminders.",
-        },
-        {
           title: "Client Portal",
           subtitle: "Onboarding panel for freelance clients",
           description:
@@ -320,15 +329,6 @@ export const translations = {
           status: "Live",
           detail:
             "Supabase RLS ensures no client can see another's data even if they manipulate the URL — security lives at the database, not the middleware.",
-        },
-        {
-          title: "Absoluto Reformas",
-          subtitle: "Rebrand and corporate website from scratch",
-          description:
-            "Full redesign from generic template to a custom, conversion-focused site. Budget form with automatic context passing between pages, before/after gallery of real works and renewed visual identity.",
-          status: "Live",
-          detail:
-            "Full technical SEO: structured data (Schema.org), indexed sitemap and per-page metadata. From zero search presence to active indexing in Google Search Console within days.",
         },
       ],
     },
