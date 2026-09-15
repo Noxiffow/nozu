@@ -117,18 +117,23 @@ export const translations = {
       steps: [
         {
           num: "01",
-          title: "Me cuentas qué quieres",
-          body: "Sin reuniones infinitas ni formularios raros. Un mensaje con lo que necesitas es suficiente para saber si puedo ayudarte.",
+          title: "Me cuentas qué necesitas",
+          body: "Un mensaje o una llamada corta. No hace falta que tengas todo definido — con que me cuentes el problema y qué quieres conseguir, puedo decirte si puedo ayudarte y cómo.",
         },
         {
           num: "02",
-          title: "Te digo si puedo hacerlo",
-          body: "Evalúo el proyecto y te doy una respuesta directa. Si puedo, te propongo cómo. Si no puedo, te lo digo — no voy a cobrarte por algo que no domino.",
+          title: "Analizo y te mando una propuesta",
+          body: "Necesito entender bien qué hay que construir antes de darte un precio. Cuando tengo el alcance claro, te mando una propuesta detallada — sin estimaciones a la ligera ni números inventados en el momento.",
         },
         {
           num: "03",
-          title: "Lo construyo y lo entrego",
-          body: "Desarrollado, desplegado y entregado funcionando. Sin versiones incompletas ni excusas de última hora.",
+          title: "Lo construyo, tú lo sigues",
+          body: "Tienes acceso a tu portal de cliente con el roadmap actualizado. Sabes en qué fase estamos y cuándo llega lo siguiente — sin tener que preguntarme.",
+        },
+        {
+          num: "04",
+          title: "Lo entrego funcionando",
+          body: "Desplegado, probado, tuyo. Te paso los accesos y te explico lo que necesitas para el día a día.",
         },
       ],
     },
@@ -180,7 +185,7 @@ export const translations = {
         },
         {
           q: "¿Cómo funciona el pago?",
-          a: "50% para arrancar el proyecto y reservar tu slot. El 50% restante al entregar, cuando el producto esté terminado y funcionando.",
+          a: "Lo más habitual es 50% al arrancar y 50% al entregar. Para proyectos más grandes, lo dividimos en 3 hitos — arranque, revisión intermedia y entrega final. Te propongo lo que más sentido tenga según el proyecto.",
         },
       ],
     },
@@ -316,17 +321,22 @@ export const translations = {
         {
           num: "01",
           title: "You tell me what you need",
-          body: "No endless meetings or weird forms. A message describing what you need is enough for me to tell you if I can help.",
+          body: "A message or a short call. You don't need to have everything figured out — tell me the problem and what you want to achieve, and I'll tell you if I can help and how.",
         },
         {
           num: "02",
-          title: "I tell you if I can do it",
-          body: "I evaluate the project and give you a straight answer. If I can, I'll propose how. If I can't, I'll tell you — I won't charge you for something I don't master.",
+          title: "I analyse and send you a proposal",
+          body: "I need to understand what needs to be built before I give you a price. Once the scope is clear, I send you a detailed proposal — no off-the-cuff estimates or numbers pulled out of thin air.",
         },
         {
           num: "03",
-          title: "I build it and deliver it",
-          body: "Developed, deployed and delivered working. No incomplete versions, no last-minute excuses.",
+          title: "I build it, you follow along",
+          body: "You get access to your own client portal with a live project roadmap. You know what phase we're in and when the next thing lands — without having to ask me.",
+        },
+        {
+          num: "04",
+          title: "I deliver it working",
+          body: "Deployed, tested, yours. I hand over access and explain what you need for day-to-day use.",
         },
       ],
     },
@@ -378,7 +388,7 @@ export const translations = {
         },
         {
           q: "How does payment work?",
-          a: "50% upfront to kick off the project and reserve your slot. The remaining 50% on delivery, once everything is finished and working.",
+          a: "The most common structure is 50% upfront and 50% on delivery. For larger projects, we split it into 3 milestones — kickoff, mid-point review, and final delivery. I'll propose whatever makes most sense for your project.",
         },
       ],
     },
