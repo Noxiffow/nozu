@@ -63,8 +63,8 @@ export const translations = {
         { label: "Lenguajes", value: "Python · JavaScript · TypeScript · SQL" },
         { label: "Web", value: "Next.js · Astro · React · FastAPI" },
         { label: "Automatización", value: "n8n · Webhooks · Cron jobs" },
-        { label: "Infra", value: "Docker · Railway · GitHub Pages · Linux" },
-        { label: "Herramientas", value: "Git · PostgreSQL · WhatsApp API" },
+        { label: "Infra", value: "Docker · Railway · Cloudflare · Fly.io" },
+        { label: "Herramientas", value: "Git · PostgreSQL · Supabase · SQLite" },
       ],
     },
     projects: {
@@ -151,24 +151,24 @@ export const translations = {
       title: "Sin letras pequeñas",
       items: [
         {
-          icon: "50%",
-          title: "La mitad para arrancar",
-          body: "Cuando confirmamos el proyecto, pagas el 50% para reservar tu slot. A partir de ahí, empezamos a trabajar.",
+          icon: "33%",
+          title: "Primer pago al arrancar",
+          body: "Cuando confirmamos el alcance, pagas el primer tercio para reservar tu slot. A partir de ahí, empezamos a trabajar.",
         },
         {
-          icon: "50%",
-          title: "La mitad al entregar",
-          body: "El resto lo pagas cuando el proyecto está terminado y funcionando. No antes.",
+          icon: "33%",
+          title: "Segundo pago a mitad",
+          body: "Con una entrega parcial funcional — algo real que puedes ver y probar — llega el segundo pago.",
+        },
+        {
+          icon: "34%",
+          title: "Pago final al entregar",
+          body: "El último pago cuando el proyecto está desplegado, probado y funcionando. No antes.",
         },
         {
           icon: "↔",
           title: "El precio es el precio",
-          body: "Lo que acordamos al principio es lo que pagas. Si durante el proceso el alcance cambia, lo hablamos antes de hacer nada extra — sin sorpresas en la factura final.",
-        },
-        {
-          icon: "✕",
-          title: "Si cancelas, el anticipo se queda",
-          body: "Si decides parar el proyecto una vez que hemos arrancado, el 50% inicial no se devuelve. El trabajo ya está hecho.",
+          body: "Lo que acordamos al principio es lo que pagas. Si cancelas, los hitos ya cobrados no se devuelven — pero no debes los que quedan por llegar.",
         },
       ],
     },
@@ -178,7 +178,7 @@ export const translations = {
       items: [
         {
           q: "¿Qué tipo de proyectos aceptas?",
-          a: "Backend en general — APIs, integraciones entre sistemas, automatizaciones. Si tienes un problema técnico concreto y necesitas a alguien que lo construya, probablemente puedo ayudarte. Si no estoy seguro, te lo digo directamente.",
+          a: "Sistemas a medida, automatizaciones, integraciones y webs funcionales. Si tienes un problema técnico concreto y necesitas a alguien que lo construya, probablemente puedo ayudarte. Si no estoy seguro, te lo digo directamente.",
         },
         {
           q: "¿Necesito tener claro qué quiero antes de contactarte?",
@@ -194,7 +194,7 @@ export const translations = {
         },
         {
           q: "¿Cómo funciona el pago?",
-          a: "Lo más habitual es 50% al arrancar y 50% al entregar. Para proyectos más grandes, lo dividimos en 3 hitos — arranque, revisión intermedia y entrega final. Te propongo lo que más sentido tenga según el proyecto.",
+          a: "Trabajamos con 3 hitos: 33% al arrancar, 33% a mitad del proyecto con una entrega parcial funcional, y 34% al entregar. Para proyectos muy pequeños y acotados se puede ajustar, pero esta estructura es la habitual.",
         },
       ],
     },
@@ -275,8 +275,8 @@ export const translations = {
         { label: "Languages", value: "Python · JavaScript · TypeScript · SQL" },
         { label: "Web", value: "Next.js · Astro · React · FastAPI" },
         { label: "Automation", value: "n8n · Webhooks · Cron jobs" },
-        { label: "Infra", value: "Docker · Railway · GitHub Pages · Linux" },
-        { label: "Tools", value: "Git · PostgreSQL · WhatsApp API" },
+        { label: "Infra", value: "Docker · Railway · Cloudflare · Fly.io" },
+        { label: "Tools", value: "Git · PostgreSQL · Supabase · SQLite" },
       ],
     },
     projects: {
@@ -363,24 +363,24 @@ export const translations = {
       title: "No fine print",
       items: [
         {
-          icon: "50%",
-          title: "Half upfront",
-          body: "When we confirm the project, you pay 50% to reserve your slot. Work starts from there.",
+          icon: "33%",
+          title: "First payment to kick off",
+          body: "When we confirm the scope, you pay the first third to reserve your slot. Work starts from there.",
         },
         {
-          icon: "50%",
-          title: "Half on delivery",
-          body: "The rest is paid when the project is finished and working. Not before.",
+          icon: "33%",
+          title: "Second payment at the midpoint",
+          body: "With a functional partial delivery — something real you can see and test — comes the second payment.",
+        },
+        {
+          icon: "34%",
+          title: "Final payment on delivery",
+          body: "The last payment when the project is deployed, tested and working. Not before.",
         },
         {
           icon: "↔",
           title: "The price is the price",
-          body: "What we agree at the start is what you pay. If scope changes during the project, we talk before doing anything extra — no surprise invoices.",
-        },
-        {
-          icon: "✕",
-          title: "If you cancel, the deposit stays",
-          body: "If you decide to stop the project after we've started, the initial 50% is non-refundable. The work is already done.",
+          body: "What we agree at the start is what you pay. If you cancel, completed milestones are non-refundable — but you don't owe the ones you haven't reached.",
         },
       ],
     },
@@ -390,7 +390,7 @@ export const translations = {
       items: [
         {
           q: "What kind of projects do you take?",
-          a: "Backend in general — APIs, system integrations, automations. If you have a concrete technical problem and need someone to build it, I can probably help. If I'm not sure, I'll tell you directly.",
+          a: "Custom systems, automations, integrations and functional websites. If you have a concrete technical problem and need someone to build it, I can probably help. If I'm not sure, I'll tell you directly.",
         },
         {
           q: "Do I need to have everything figured out before contacting you?",
@@ -406,7 +406,7 @@ export const translations = {
         },
         {
           q: "How does payment work?",
-          a: "The most common structure is 50% upfront and 50% on delivery. For larger projects, we split it into 3 milestones — kickoff, mid-point review, and final delivery. I'll propose whatever makes most sense for your project.",
+          a: "We use 3 milestones: 33% to kick off, 33% at the project midpoint with a functional partial delivery, and 34% on final delivery. For very small, well-scoped projects this can be adjusted, but this structure is the default.",
         },
       ],
     },
