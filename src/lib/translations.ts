@@ -13,7 +13,7 @@ export const translations = {
       badge: "Disponible para proyectos",
       title: "Tu negocio, funcionando de verdad",
       subtitle:
-        "Webs, automatizaciones y chatbots para negocios que quieren dejar de hacer las cosas a mano — sin tecnicismos.",
+        "Sistemas, automatizaciones e integraciones para negocios que quieren dejar de hacer las cosas a mano — sin tecnicismos.",
       cta: "Cuéntame tu proyecto",
       ctaSecondary: "Ver proyectos",
       chat: [
@@ -28,25 +28,25 @@ export const translations = {
       title: "Lo que construyo",
       items: [
         {
-          title: "Páginas Web",
-          subtitle: "La cara digital de tu negocio",
-          description:
-            "Te hago la web aunque no tengas claro qué quieres. Tú aportas las fotos y el contenido, yo me encargo del diseño, el desarrollo y que quede online.",
-          detail: "Entregada funcionando desde el primer día — no versiones a medias.",
-        },
-        {
-          title: "Automatizaciones",
+          title: "Automatizaciones e Integraciones",
           subtitle: "Workflows que trabajan mientras duermes",
           description:
-            "Automatizo los procesos que ahora dependen de que alguien haga algo a mano. Reservas, emails, notificaciones, reportes, sincronización de datos.",
-          detail: "Trabajo con lo que ya tienes — no hace falta cambiar de plataforma.",
+            "Automatizo los procesos que ahora dependen de que alguien haga algo a mano. Reservas, emails, notificaciones, reportes, sincronización de datos entre plataformas.",
+          detail: "Trabajo con lo que ya tienes — no hace falta cambiar de plataforma ni contratar nuevas herramientas.",
         },
         {
-          title: "Chatbots e Integraciones",
-          subtitle: "Tu negocio disponible 24/7",
+          title: "Sistemas a medida",
+          subtitle: "Software que encaja en tu negocio",
           description:
-            "Chatbots en WhatsApp o en tu web que responden, gestionan pedidos o atienden clientes. Conecto herramientas que no se hablan entre sí.",
-          detail: "Sin intervención manual — el bot trabaja, tú descansas.",
+            "Construyo sistemas completos adaptados a cómo funciona tu negocio: agendamiento online, gestión de clientes, paneles internos, APIs propias. Sin depender de herramientas genéricas que no encajan.",
+          detail: "Backend sólido, lógica de negocio real — no plantillas ni soluciones prefabricadas que luego no escalan.",
+        },
+        {
+          title: "Webs funcionales",
+          subtitle: "Presencia digital que hace algo",
+          description:
+            "Webs que no son solo tarjetas de visita: formularios conectados a tus sistemas, SEO técnico desde el arranque, integraciones con lo que ya usas. Sin prometer diseño de agencia.",
+          detail: "Lo que entrego funciona en producción desde el primer día — no versiones a medias ni plantillas sin adaptar.",
         },
       ],
     },
@@ -54,7 +54,7 @@ export const translations = {
       label: "Sobre mí",
       title: "Jonathan Neto",
       paragraphs: [
-        "Freelance independiente. Hago webs, automatizaciones y chatbots para negocios que quieren dejar de hacer las cosas a mano.",
+        "Freelance independiente. Construyo sistemas, automatizaciones e integraciones para negocios que quieren dejar de hacer las cosas a mano.",
         "No me interesa entregar algo que queda sin usar. Me interesa que funcione en producción y solucione un problema concreto — ya sea una web, un bot de WhatsApp o un flujo automático de reservas.",
         "Si tienes claro lo que necesitas, arrancamos. Si no está claro, lo aclaramos juntos. Y si no puedo hacerlo, te lo digo — sin cobrarte por intentarlo.",
       ],
@@ -225,7 +225,7 @@ export const translations = {
       badge: "Available for projects",
       title: "Your business, actually working",
       subtitle:
-        "Websites, automations and chatbots for businesses that want to stop doing things manually — no jargon.",
+        "Systems, automations and integrations for businesses that want to stop doing things manually — no jargon.",
       cta: "Tell me about your project",
       ctaSecondary: "View projects",
       chat: [
@@ -240,25 +240,25 @@ export const translations = {
       title: "What I build",
       items: [
         {
-          title: "Websites",
-          subtitle: "Your business's digital face",
-          description:
-            "I'll build your site even if you don't have a clear vision yet. You bring the photos and content, I handle the design, development and deployment.",
-          detail: "Delivered working from day one — no half-finished versions.",
-        },
-        {
-          title: "Automations",
+          title: "Automations & Integrations",
           subtitle: "Workflows that work while you sleep",
           description:
-            "I automate the processes that currently depend on someone doing things manually. Bookings, emails, notifications, reports, data sync.",
-          detail: "I work with what you already have — no need to switch platforms.",
+            "I automate the processes that currently depend on someone doing things manually. Bookings, emails, notifications, reports, data sync between platforms.",
+          detail: "I work with what you already have — no need to switch platforms or buy new tools.",
         },
         {
-          title: "Chatbots & Integrations",
-          subtitle: "Your business available 24/7",
+          title: "Custom Systems",
+          subtitle: "Software that fits your business",
           description:
-            "Chatbots on WhatsApp or your website that respond, handle orders or support customers. I connect tools that don't talk to each other.",
-          detail: "No manual intervention — the bot works, you rest.",
+            "I build complete systems adapted to how your business works: online scheduling, client management, internal dashboards, custom APIs. No dependency on generic tools that don't quite fit.",
+          detail: "Solid backend, real business logic — no templates or pre-built solutions that break at scale.",
+        },
+        {
+          title: "Functional Websites",
+          subtitle: "A digital presence that does something",
+          description:
+            "Websites that aren't just business cards: forms connected to your systems, technical SEO from day one, integrations with what you already use. No promises of agency-level design.",
+          detail: "What I deliver works in production from day one — no half-finished versions or unadapted templates.",
         },
       ],
     },
@@ -266,7 +266,7 @@ export const translations = {
       label: "About",
       title: "Jonathan Neto",
       paragraphs: [
-        "Freelance developer finishing a Higher Degree in Multiplatform Application Development. I build websites, automations and chatbots for businesses that want to stop doing things manually.",
+        "Freelance developer finishing a Higher Degree in Multiplatform Application Development. I build systems, automations and integrations for businesses that want to stop doing things manually.",
         "I'm not interested in delivering something that goes unused. I care about things working in production and solving a concrete problem — whether that's a website, a WhatsApp bot or an automated booking flow.",
         "If you know what you need, we start. If it's not clear yet, we figure it out together. And if I can't do it, I'll tell you — without charging you for trying.",
       ],
