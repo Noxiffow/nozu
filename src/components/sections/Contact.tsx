@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { SectionLabel } from "@/components/ui/section-label";
 import { useLang } from "@/contexts/LanguageContext";
 
 export function Contact() {
@@ -19,13 +20,26 @@ export function Contact() {
   return (
     <section id="contacto" className="py-24 px-6 border-t border-white/[0.05]">
       <div className="max-w-2xl mx-auto text-center">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-          <p className="text-xs font-mono text-[#f97316] mb-3 tracking-widest uppercase">{contact.label}</p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className="flex justify-center">
+            <SectionLabel>{contact.label}</SectionLabel>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{contact.title}</h2>
           <p className="text-[#a09890] text-base leading-relaxed mb-10 max-w-md mx-auto">{contact.subtitle}</p>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }} className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
+        >
           <a
             href={`https://wa.me/34604923459?text=${contact.whatsapp}`}
             target="_blank"
